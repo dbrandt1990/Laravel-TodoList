@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Todo extends Model
 {
     protected $fillabel = [
-        'todo'
+        'content'
     ];
 
     public $timestamps = true;
